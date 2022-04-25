@@ -17,17 +17,17 @@ function cuadrado($num){
 
 
 /**
-*Devuelve el resultado de la suma de dos números
+*Devuelve el resultado de la resta de dos números
 *
 *@author María Martínez Cubiles
 *@version 4.8 nano y 7.4 de PHP
-*@param $valor1 y $valor2. Son los números a sumar
-*@return me devuelve la suma de ambos números
-*{@internal Obtenemos un número tras sumar el $valor1 y el $valor2}
+*@param $valor1 y $valor2. Son los números a restar
+*@return me devuelve la resta de ambos números
+*{@internal Obtenemos un número tras restar el $valor1 y el $valor2}
 */
 
-function suma($valor1, $valor2){
-	return $valor1 + $valor2;
+function resta($valor1, $valor2){
+	return $valor1 - $valor2;
 }
 
 ?> 
